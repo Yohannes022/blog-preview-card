@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 40%;
+    height: auto;
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 10px 10px 1px #000
+}
+
+p {
+    font-size: 15px;
+}
+
+.pic {
+    margin-bottom: 1.77rem;
+}
+
+.pic img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.learn {
+    width: 6em;
+    text-align: center;
+    font-weight: 800;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 7px;
+    margin-bottom: 1rem;
+}
+
+.publish {
+    margin-bottom: 1rem;
+}
+
+h3 {
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.desc {
+    color: hsl(0, 0%, 50%);
+    margin-bottom: 1rem;
+}
+
+
+.developer {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.developer img {
+    width: 2rem;
+}
+
+.developer strong {
+    font-weight: 800;
+}
+
+@media screen and (min-width: 310px) {
+    .container {
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 750px) {
+    .container {
+        width: 28%;
+    }
+}
